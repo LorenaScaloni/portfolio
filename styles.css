@@ -1,0 +1,82 @@
+body{
+    background-image: url(IMAGENES/colormadera.jpg)
+}   
+header a i{ 
+    color: rgb(37, 97, 37);}
+p{
+    padding: 0px;
+    border block-size: 10px;
+    margin:3px
+}
+ol, ul{
+    list-style: none;
+}
+header{
+    background-color: rgb(14, 63, 14);
+    display: flex;
+    align-items: center;
+    justify-content:   space-evenly;
+}
+nav ul{
+    display: flex;
+    gap: 1.1em;
+    color: white;
+}
+#logo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+#contacto{
+    align-items: flex-start;
+    display: flex;
+    justify-content: left;
+}
+.datos{
+    background-color: rgb(14, 63, 14);
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    font-size: 25px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 768px){
+    header{
+    background-color: #0f0b0b;
+    body {
+    font-size: 10px;}
+    }
+}
+@media (min-width: 769px) {
+    body {
+        font-size: 20px;
+        }
+    }
+    }
+
+    }
+    .acerca{
+        padding: 1px;
+        height: 200px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #seccion-principal{
+        display: flex;
+        flex-wrap: wrap}
+            
+    .imagen{
+        padding: 5PX;
+        margin: 1PX;
+        width: 0%;}
